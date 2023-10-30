@@ -60,7 +60,7 @@ var corsOptions = {
     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 }
 var openAiLink = "https://api.openai.com/v1/chat/completions"
-app.use(cors())
+// app.use(cors())
 
 // use the express-static middleware
 app.use(express.static("public"))

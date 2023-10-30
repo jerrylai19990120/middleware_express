@@ -78,7 +78,7 @@ app.post('/getOpenAI', (req, res) => {
         body: JSON.stringify(req.body),
         method: 'POST',
         headers: {
-            "Authorization": `Bearer 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`,
+            "Authorization": `Bearer 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`,
             "Content-Type": 'application/json',
             "Access-Control-Allow-Origin": "*",
             "Access-Control-Allow-Methods": "POST, GET, PUT",

@@ -57,7 +57,7 @@ app.use(bodyParser.json())
 //     origin: ['http://localhost:4200', 'https://miniauglarsite.web.app'],
 //     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
 // }
-// var openAiLink = "https://api.openai.com/v1/chat/completions"
+var openAiLink = "https://api.openai.com/v1/chat/completions"
 app.use(cors())
 
 // use the express-static middleware

@@ -50,10 +50,10 @@ const express = require('express')
 var cors = require('cors')
 const http = require('http');
 var request = require('request');
-const bodyParser = require('body-parser');
-var functions = require('firebase-functions')
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json())
+// const bodyParser = require('body-parser');
+// var functions = require('firebase-functions')
+// app.use(bodyParser.urlencoded({ extended: false }));
+// app.use(bodyParser.json())
 
 var corsOptions = {
     origin: ['http://localhost:4200', 'https://miniauglarsite.web.app'],

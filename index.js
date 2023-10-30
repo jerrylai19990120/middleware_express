@@ -44,22 +44,20 @@
 // })
 // exports.app = functions.https.onRequest(app);
 const express = require("express")
-var cors = require('cors')
 const app = express()
-const express = require('express')
-var cors = require('cors')
-const http = require('http');
-var request = require('request');
+// var cors = require('cors')
+// const http = require('http');
+// var request = require('request');
 const bodyParser = require('body-parser');
-var functions = require('firebase-functions')
+// var functions = require('firebase-functions')
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json())
 
-var corsOptions = {
-    origin: ['http://localhost:4200', 'https://miniauglarsite.web.app'],
-    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
-}
-var openAiLink = "https://api.openai.com/v1/chat/completions"
+// var corsOptions = {
+//     origin: ['http://localhost:4200', 'https://miniauglarsite.web.app'],
+//     optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+// }
+// var openAiLink = "https://api.openai.com/v1/chat/completions"
 // app.use(cors())
 
 // use the express-static middleware

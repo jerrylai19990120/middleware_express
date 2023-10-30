@@ -51,8 +51,13 @@ app.use(express.static("public"))
 
 // define the first route
 app.get("/", function (req, res) {
-  res.send("<h1>Hello World!</h1>")
+    res.send("<h1>Hello World!</h1>")
 })
+
+app.get('/test', (req, res) => {
+    res.send("up and running")
+})
+
 
 // start the server listening for requests
 app.listen(process.env.PORT || 3000, 
